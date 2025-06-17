@@ -7,3 +7,18 @@ git status
 git add index.html
   Thêm vào stagging
 
+git commit -m "Lần commit đầu tiên: tạo index.html"
+  Commit
+
+git remote add origin https://github.com/TongDangTu/syntax.git
+  Kết nối tới repo trên máy chủ từ xa Github
+
+git remote remove origin
+  Loại bỏ repo trên máy chủ đã kết nối trước đó
+
+git branch -M main
+  Đổi tên nhánh hiện tại thành main.
+  -M: là nhánh hiện tại
+
+git push -u origin main
+  Đẩy code nhánh main từ local lên remote
