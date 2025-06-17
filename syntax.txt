@@ -7,6 +7,9 @@ git status
 git add index.html
   Thêm vào stagging
 
+git restore --staged index.css
+  Loại bỏ một file ra khỏi stagging
+
 git commit -m "Lần commit đầu tiên: tạo index.html"
   Commit
 
@@ -22,3 +25,9 @@ git branch -M main
 
 git push -u origin main
   Đẩy code nhánh main từ local lên remote
+
+git branch
+  Danh sách branch
+
+git checkout -b body-style
+  Tạo branch mới (body-style) từ branch đang đứng
