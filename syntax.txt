@@ -58,3 +58,13 @@ git pull origin body-style
 
 git fetch
   fetch lại các thay đổi mới nhất từ remote
+
+
+Một số ví dụ commit chuẩn:
+  feat(product): thêm chức năng lọc sản phẩm theo giá
+  fix(cart): sửa lỗi không update tổng tiền khi xoá sản phẩm
+  refactor(order): tách phần xử lý đơn hàng thành service riêng
+  docs: cập nhật README
+  style: format code bằng Prettier
+  chore: nâng cấp phiên bản Angular 17
+  test(user): viết test cho hàm validateEmail
