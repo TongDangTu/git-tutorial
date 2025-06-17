@@ -1,6 +1,9 @@
 git init
   Khởi tạo git
 
+git clone https://github.com/TongDangTu/git-tutorial.git
+  Clone một dự án đã có sẵn trên remote
+
 git status
   Kiểm tra trạng thái
 
@@ -19,6 +22,9 @@ git reset --mixed HEAD~1
 git reset --mixed HEAD~2
   Undo commit 2 lần liên tiếp
 
+git reset --hard HEAD~1
+  Undo commit và xóa luôn phần code vừa chỉnh sửa. Hành động không thể phục hồi.
+
 git remote add origin https://github.com/TongDangTu/syntax.git
   Kết nối tới repo trên máy chủ từ xa Github
 
@@ -30,7 +36,10 @@ git branch -M main
   -M: là nhánh hiện tại
 
 git push -u origin main
-  Đẩy code nhánh main từ local lên remote
+  Push lần đầu từ local lên remote
+
+git push origin main
+  Push lần sau từ local lên remote
 
 git branch
   Danh sách branch
