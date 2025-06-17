@@ -31,3 +31,6 @@ git branch
 
 git checkout -b body-style
   Tạo branch mới (body-style) từ branch đang đứng
+
+git checkout origin main
+  Chuyển sang nhánh main
