@@ -1,0 +1,9 @@
+git init
+  Khởi tạo git
+
+git status
+  Kiểm tra trạng thái
+
+git add index.html
+  Thêm vào stagging
+
