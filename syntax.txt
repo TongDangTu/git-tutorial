@@ -34,3 +34,6 @@ git checkout -b body-style
 
 git checkout origin main
   Chuyển sang nhánh main
+
+git checkout 7df930e66721581d015ae7affb3006db7d99e824
+  Chuyển sang lúc commit được nhắc đến
